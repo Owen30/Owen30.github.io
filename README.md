@@ -71,3 +71,11 @@ Owen30's Website.
 
 - [디자이너에게 영감을 주는 사이트](https://www.youtube.com/)
 - [Pen-Pineapple-Apple-pen](https://www.youtube.com/watch?v=kN5cqf63kb8)
+
+### 인용구문
+
+인용절은 보통 들여쓰기를 통해 사용자에게 일반 문장과 구분해준다.<br>
+html언어에서는 <blockquote>요소를 사용하여 인용절을 구조화한다.
+
+> "내가 눈물을 흘린다는건, 내가 살아 있는 이유"<br>
+> "Pen-Pineapple-Apple-pen"
