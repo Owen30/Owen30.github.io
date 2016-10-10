@@ -18,3 +18,28 @@ Owen30's Website.
 #### markdown H4 
 ##### markdown H5 
 ###### markdown H6
+
+
+```html
+<!-- 비순차목록 -->
+<ul>
+   <li>item1</li>
+   <li>item2</li>
+   <li>item3</li>
+</ul>
+<!-- 순차목록 -->
+<ol>
+	<li>item1</li>
+	<li>item2</li>
+	<li>item3</li>
+</ol>	
+```
+
+- item1
+- item2
+- item3
+
+1. item1
+2. item2
+3. item3
+
