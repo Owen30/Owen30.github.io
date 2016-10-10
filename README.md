@@ -55,3 +55,9 @@ Owen30's Website.
 2. item2
 3. item3
 
+### 이미지
+```html
+<img src="http://mimgnews2.naver.net/image/433/2016/10/06/20161005010347_adpc_9384_99_20161006132115.jpg?type=w540" alt="pusheencat">
+```
+
+![pusheencat](http://mimgnews2.naver.net/image/433/2016/10/06/20161005010347_adpc_9384_99_20161006132115.jpg?type=w540)
