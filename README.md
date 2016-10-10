@@ -34,10 +34,13 @@ Owen30's Website.
 	<li>item3</li>
 </ol>	
 ```
+#### 비순차목록
 
 - item1
 - item2
 - item3
+
+##### 순차목록
 
 1. item1
 2. item2
