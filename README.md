@@ -59,5 +59,6 @@ Owen30's Website.
 ```html
 <img src="http://mimgnews2.naver.net/image/433/2016/10/06/20161005010347_adpc_9384_99_20161006132115.jpg?type=w540" alt="pusheencat">
 ```
+<img src="http://mimgnews2.naver.net/image/433/2016/10/06/20161005010347_adpc_9384_99_20161006132115.jpg?type=w540" alt="pusheencat" width="340" height="505" >
 
 ![pusheencat](http://mimgnews2.naver.net/image/433/2016/10/06/20161005010347_adpc_9384_99_20161006132115.jpg?type=w540)
