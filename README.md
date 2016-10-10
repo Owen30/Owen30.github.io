@@ -3,10 +3,7 @@ Owen30's Website.
 
 ## markdown 문법 사용법 
 
-<!-- '''css --> 
-<!-- '''js --> 
 '''html 
-
 <h1>heading 1</h1> 
 <h2>heading 2</h2> 
 <h3>heading 3</h3> 
