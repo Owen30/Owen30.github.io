@@ -4,12 +4,180 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta charset="UTF-8">
 	<title>현대카드 테이블 디자인 [컬쳐 프로젝트 24 시규어 로스]</title>
-	<link rel="stylesheet" href="css/font/you_and_i_modern.css">
-	<!-- 브라우저 간의 통일을 주기 위한 링크 -->
-	<link rel="sytlesheet" href="module/normalize.css">
+	<link rel="stylesheet" href="../css/font/you_and_i_modern.css">
+	<link rel="sytlesheet" href="../module/normalize.css">
+    <link rel="sytlesheet" href="../module/common.css"> 
+	<style>
+	    body { margin: 4rem;}
 
+		.hc-table {
+			border-collapse: collapse;
+		    font-family: "YouandiModernTR"
+		    margin-bottom: 4em;
+		}
+		.hc-table,
+		.hc-table th,
+		.hc-table td {
+			border: 1px solid #606060;
+		}
+        .hc-table th,
+		.hc-table td { 
+			padding: 1em; 
+		}
+
+		.hc-table th {
+			text-align: left;
+			font-family: "YouandiModernTB";
+			font-weight: normal;
+		}
+        
+        .hc-section { margin: 3em; }
+		.hc-section h1 {
+			font-family: "YouandiModernHEB";
+			font-weight: normal;
+			font-size: 1.5em;
+		}
+
+		.a11y-hidden
+
+	</style>
 </head>
 <body>
+<section class="hc-section">
+    <h1>제목 셀이 수평 방향</h1>
+    <table class="hc-table">
+    <caption class="a11y-hidden">테이블을 대표하는 제목크</caption>
+	<tr>
+		<th scope="col">YouandiModernTR 제목</th>
+		<th scope="col">제목2</th>
+		<th scope="col">제목3</th>
+		<th scope="col">제목4</th>
+		<th scope="col">제목5</th>
+	</tr>
+	<tr>
+		<td>내용 셀1</td>
+		<td>내용 셀2</td>
+		<td>내용 셀3</td>
+		<td>내용 셀4</td>
+		<td>내용 셀5</td>
+	</tr>
+	<tr>
+		<td>내용 셀1</td>
+		<td>내용 셀2</td>
+		<td>내용 셀3</td>
+		<td>내용 셀4</td>
+		<td>내용 셀5</td>
+	</tr>
+	<tr>
+		<td>내용 셀1</td>
+		<td>내용 셀2</td>
+		<td>내용 셀3</td>
+		<td>내용 셀4</td>
+		<td>내용 셀5</td>
+	</tr>
+	</table>
+</section>
+
+<section class="hc-section">
+    <h1>제목 셀이 수직 방향으로 있는 표</h1>
+	<table class="hc-table">
+	<caption class="a11y-hidden">테이블을 대표하는 제목크</caption>
+		<tr>
+		   <th scope="row">제목 셀</th>
+		   <td>내용 셀</td>
+		   <td>내용 셀</td>
+		   <td>내용 셀</td>
+		   <td>내용 셀</td>
+		</tr>
+        <tr>
+		   <th scope="row">제목 셀</th>
+		   <td>내용 셀</td>
+		   <td>내용 셀</td>
+		   <td>내용 셀</td>
+		   <td>내용 셀</td>
+		</tr>
+		<tr>
+		   <th scope="row">제목 셀</th>
+		   <td>내용 셀</td>
+		   <td>내용 셀</td>
+		   <td>내용 셀</td>
+		   <td>내용 셀</td>
+		</tr>
+		<tr>
+		   <th>제목 셀</th>
+		   <td>내용 셀</td>
+		   <td>내용 셀</td>
+		   <td>내용 셀</td>
+		   <td>내용 셀</td>
+		</tr>
+
+	</table>
+</section>
+
+<section class="hc-section">
+	<h1>행 또는 열이 합쳐진 표</h1>
+	<table class="hc-table">
+	<caption class="a11y-hidden">테이블을 대표하는 제목크</caption>
+		<tr>
+			<th rowspan="2">제목 셀</th>
+			<th colspan="3">제목 셀</th>
+			<!-- <th>제목 셀</th>
+			<th>제목 셀</th> -->
+		</tr>
+		<tr>
+			<!-- <th>제목 셀</th> -->
+			<th>제목 셀</th>
+			<th>제목 셀</th>
+			<th>제목 셀</th>
+		</tr>
+		<tr>
+			<th rowspan="2">제목 셀</th>
+			<td>내용 셀</td>
+			<td>내용 셀</td>
+			<td>내용 셀</td>
+		</tr>
+		<tr>
+			<!-- <th>제목 셀</th> -->
+			<td>내용 셀</td>
+			<td>내용 셀</td>
+			<td>내용 셀</td>
+		</tr>
+		<tr>
+			<th>제목 셀</th>
+			<td>내용 셀</td>
+			<td>내용 셀</td>
+			<td>내용 셀</td>
+		</tr>
+	</table>
+</section>
+
+<section class="hc-section">
+	<h1>제목은 양쪽에 있지만 2번째 행을 합친 테이블</h1>
+	<table class="hc-table">
+	<caption class="a11y-hidden">테이블을 대표하는 제목크</caption>
+	    <tr>
+	    	<td></td>
+	    	<th>제목 셀</th>
+	    	<th>제목 셀</th>
+	    	<th>제목 셀</th>
+	    </tr>
+	    <tr>
+	    	<th colspan="4">병합된 셀</th>
+	    </tr>
+	    <tr>
+	    	<th>제목 셀</th>
+	    	<td>내용 셀</td>
+	    	<td>내용 셀</td>
+	    	<td>내용 셀</td>
+	    </tr>
+	    <tr>
+	        <th>제목 셀</th>
+	        <td>내용 셀</td>
+	        <td>내용 셀</td>
+	        <td>내용 셀</td>
+	    </tr>
+	</table>
+</section>
 
 </body>
 </html>
