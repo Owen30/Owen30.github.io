@@ -1,0 +1,50 @@
+.box {
+  background: hsla(100, 0%, 20%, 0.45);
+  color: #00000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  position: relative;
+  
+}
+
+.dress {
+  height: 620px;
+  line-height: 410px;
+}
+
+.v-space {
+  margin-bottom: 20px;
+}
+
+.v-space-top {
+  margin-top: 20px;
+}
+
+.product {
+  height: 300px;
+  line-height: 300px;
+  margin-top: 20px;
+}
+
+.hx1 {
+  height: 60px;
+  line-height: 60px;
+  background-color: #fff;
+}
+
+.hx2 {
+  margin-top: 20px;
+  line-height: 60px;
+}
+
+.hx3 {
+  height: 620px;
+  line-height: 620px;
+}
+
+.hx4 {
+  height: 400px;
+  line-height: 60px;
+  background-color: #fff;
+}
