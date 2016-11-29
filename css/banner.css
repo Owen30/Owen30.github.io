@@ -1,0 +1,76 @@
+.banner {
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 320px;
+  margin: -160px 0 0 -400px;
+  background: url("../images/BG.jpg");
+}
+
+.banner-apes {
+  position: absolute;
+  left: 4px;
+  bottom: 94px;
+  animation: move-in-from-left 2s;
+}
+
+.banner-golliras {
+  position: absolute;
+  bottom: 24px;
+  left: 11px;
+  animation: move-in-from-bt 2s;
+}
+
+.banner-kingkong {
+  position: absolute;
+  bottom: 0px;
+  right: 12px;
+  animation: move-in-from-right 2s;
+}
+
+.banner-logo {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  animation: move-in-from-top 2s;
+}
+
+.banner-headline {position: absolute;
+	top: 31px;left: 122px;margin: 0;
+	font-family: "Spoqa Han Sans";font-size: 33px;
+	font-weight: 700;font-style: italic;line-height: 1.1;
+	letter-spacing: 0.03em;color: #ffffff;
+	text-shadow: 0 0 4px rgba(1, 1, 1, 0.6);
+    animation: move-in-from-top2 2s;}
+
+/* 애니메이션 키프레임 설정 */
+
+@keyframes move-in-from-top {
+	from { top: -200px;	}
+
+	to { top: 18px;	}
+}
+
+@keyframes move-in-from-top2 {
+	from { top: -200px;	}
+
+	to { top: 31px;	}
+}
+
+@keyframes move-in-from-left {
+	from { left: -1000px; }
+	to {left: 4px;}
+}
+
+@keyframes move-in-from-bt {
+	from { bottom: -500px; }
+	to {bottom: 24px;}
+}
+
+@keyframes move-in-from-right {
+	from { right: -1000px; }
+	to {right: 12px;}
+}
+
